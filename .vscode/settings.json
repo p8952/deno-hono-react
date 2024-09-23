@@ -1,0 +1,4 @@
+{
+  "deno.enablePaths": ["./api/", "./client/"],
+  "deno.lint": false
+}
