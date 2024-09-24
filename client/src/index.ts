@@ -1,6 +1,6 @@
 import { hc } from "npm:hono@4.5.11/client";
 
-import { AppType } from "../api/src/index.ts";
+import { AppType } from "../../api/src/index.ts";
 
 const honoClient = hc<AppType>("http://localhost:8000/");
 

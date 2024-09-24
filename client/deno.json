@@ -1,0 +1,6 @@
+{
+  "lock": false,
+  "imports": {
+    "hono/client": "npm:hono@4.5.11/client"
+  }
+}

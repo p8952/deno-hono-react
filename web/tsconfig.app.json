@@ -6,7 +6,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /* Bundler mode */
+    /* Bundler Mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
@@ -18,7 +18,14 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Deno Types */
+    "paths": {
+      "@hono/zod-openapi": ["./node_modules/@hono/zod-openapi"],
+      "hono/": ["./node_modules/hono/"]
+    }
   },
+
   "include": ["src"]
 }

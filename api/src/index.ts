@@ -1,5 +1,5 @@
-import { OpenAPIHono } from "npm:@hono/zod-openapi@0.16.0";
-import { cors } from "npm:hono/cors";
+import { OpenAPIHono } from "@hono/zod-openapi";
+import { cors } from "hono/cors";
 
 import { testRoute } from "./routes/testRoute.ts";
 

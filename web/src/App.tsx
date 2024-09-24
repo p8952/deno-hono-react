@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { hc } from "hono/client";
 
-import { AppType } from "../../api/src";
+import { AppType } from "../../api/src/index.ts";
 
 const honoClient = hc<AppType>("http://localhost:8000/");
 

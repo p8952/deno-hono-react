@@ -1,0 +1,7 @@
+{
+  "lock": false,
+  "imports": {
+    "@hono/zod-openapi": "npm:@hono/zod-openapi@0.16.0",
+    "hono/cors": "npm:hono@4.5.11/cors"
+  }
+}

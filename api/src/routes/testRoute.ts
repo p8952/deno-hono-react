@@ -1,8 +1,4 @@
-import {
-  createRoute,
-  type RouteHandler,
-  z,
-} from "npm:@hono/zod-openapi@0.16.0";
+import { createRoute, type RouteHandler, z } from "@hono/zod-openapi";
 
 const route = createRoute({
   method: "post",
